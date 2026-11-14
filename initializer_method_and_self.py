@@ -4,11 +4,13 @@ class Tesla:
     #jant = 20
     #otopilot =  False
 
+    sis_fari = 2   #sınıf değişkeni
+
     def __init__(self,renk = "Beyaz",batarya = "Uzun Menzil",jant = 20,otopilot = False):
-        self.renk = renk
-        self.batarya = batarya
-        self.jant = jant
-        self.otopilot = otopilot
+        self.renk = renk #nesne değişkeni
+        self.batarya = batarya #nesne değişkeni
+        self.jant = jant #nesne değişkeni
+        self.otopilot = otopilot #nesne değişkeni
 
     def goster_bilgi(self):
         print(f"Renk: {self.renk},Batarya: {self.batarya},Jant: {self.jant},Otopilot: {self.otopilot}")
